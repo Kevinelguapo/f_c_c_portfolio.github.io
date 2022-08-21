@@ -54,9 +54,10 @@ body {
   margin: 0;
   text-decoration: none;
   font-size: 1.25em;
+  color: var(--color0);
 }
 .nav-bar a:hover {
-  background-color: var(--color3);
+  background-color: var(--color0);
   color: var(--font-color);
 }
 /* WELCOME SECTION */
@@ -73,11 +74,17 @@ body {
   text-align: center;
   margin: 0.25em;
 }
-#welcome-section p {
+#welcome-section #description {
   text-align: center;
   font-size: 1.5em;
   margin: 0;
   color: var(--color1);
+}
+#welcome-section #what {
+  position: relative;
+  top: 60px;
+  width: 50%;
+  text-align: center;
 }
 /* PROJECTS SECTION  */
 #projects {
